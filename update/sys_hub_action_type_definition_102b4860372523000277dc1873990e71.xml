@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Input a number and return the date that many days ago.</description>
+        <internal_name>get_days_ago_date</internal_name>
+        <label_cache>[{"name":"{{step[909f92ee-bf5a-404e-af98-399788244df5].n}}","label":"step➛Calculate daysAgo Date➛n","type":"step","ref":""},{"name":"{{step[909f92ee-bf5a-404e-af98-399788244df5].ne}}","label":"step➛Calculate daysAgo Date➛ne","type":"step","ref":""},{"name":"{{step[909f92ee-bf5a-404e-af98-399788244df5].new}}","label":"step➛Calculate daysAgo Date➛new","type":"step","ref":""},{"name":"{{step[909f92ee-bf5a-404e-af98-399788244df5].new_}}","label":"step➛Calculate daysAgo Date➛new_","type":"step","ref":""},{"name":"{{step[909f92ee-bf5a-404e-af98-399788244df5].new_d}}","label":"step➛Calculate daysAgo Date➛new_d","type":"step","ref":""},{"name":"{{step[909f92ee-bf5a-404e-af98-399788244df5].new_da}}","label":"step➛Calculate daysAgo Date➛new_da","type":"step","ref":""},{"name":"{{step[909f92ee-bf5a-404e-af98-399788244df5].new_dat}}","label":"step➛Calculate daysAgo Date➛new_dat","type":"step","ref":""},{"name":"{{step[909f92ee-bf5a-404e-af98-399788244df5].new_date}}","label":"step➛Calculate daysAgo Date➛new_date","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>a66c88a0372523000277dc1873990e4a</latest_snapshot>
+        <master_snapshot>e66c88a0372523000277dc1873990e6a</master_snapshot>
+        <name>Get Days Ago Date</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-30 22:15:55</sys_created_on>
+        <sys_id>102b4860372523000277dc1873990e71</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Get Days Ago Date</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_285890_needit_sp">88617e1c372123000277dc1873990e50</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">88617e1c372123000277dc1873990e50</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_102b4860372523000277dc1873990e71</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-30 22:21:33</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=102b4860372523000277dc1873990e71"/>
+    <sys_variable_value action="delete_multiple" query="document_key=102b4860372523000277dc1873990e71"/>
+    <sys_element_mapping action="delete_multiple" query="id=102b4860372523000277dc1873990e71"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>calculated_date</field>
+        <id>102b4860372523000277dc1873990e71</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-30 22:20:02</sys_created_on>
+        <sys_id>ec1c44a0372523000277dc1873990edf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-30 22:20:02</sys_updated_on>
+        <table>var__m_sys_hub_action_output_102b4860372523000277dc1873990e71</table>
+        <value>{{step[909f92ee-bf5a-404e-af98-399788244df5].new_date}}</value>
+    </sys_element_mapping>
+</record_update>
